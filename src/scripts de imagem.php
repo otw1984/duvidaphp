@@ -1,5 +1,6 @@
 <?php
 
+//GRAVA IMAGEM
 public function gravarImagemCliente()
     {
         try{
@@ -62,7 +63,8 @@ private function validaFormatoArquivo()
 }
 
 //NOME DINAMICO PARA O ARQUIVO
-private function nomeDinamico(){
+private function nomeDinamico()
+{
     $nome = $this->arquivo['name'];
     $e = explode(".", $nome);
     $ext = strtolower(end($e));

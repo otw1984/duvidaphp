@@ -1,22 +1,3 @@
-<!--<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Cadastro</title>
-</head>
-<body>
-
-<form action="src/clienteAction.php" method="post" name="enviar">
-    <p>NOME:<input type="text" name="nome" /></p>
-    <p>IDADE:<input type="text" name="idade" /></p>
-    <p><input type="submit" value="cadastrar" /></p>
-</form>
-
-</body>
-</html>
--->
-
-
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>

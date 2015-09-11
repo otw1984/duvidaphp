@@ -1,11 +1,9 @@
 <?php
 
-class ImagemCliente {
+class Imagem {
 
     private $id;
     private $imagem;
-    private $idCliente;
-
 
     /*
      ********************************
@@ -33,16 +31,4 @@ class ImagemCliente {
     {
         return $this->imagem = $imagem;
     }
-
-    //idCliente
-    public function getIdCliente()
-    {
-        return $this->idCliente;
-    }
-
-    public function setIdCliente($idCliente)
-    {
-        return $this->idCliente = $idCliente;
-    }
-
 }
