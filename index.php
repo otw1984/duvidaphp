@@ -7,9 +7,9 @@
 
 <body>
 
-<form method="post" action="src/imagemClienteAction.php" enctype="multipart/form-data">
+<form method="post" action="imagemAction.php" enctype="multipart/form-data">
     <p>Entre com uma imagem:</p>
-    <input type="file" name="arquivo" /> <br />
+    <input type="file" name="arquivo[]" multiple /> <br />
     <input type="submit" value="CASDASTRAR" />
 </form>
 

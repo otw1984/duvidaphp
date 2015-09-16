@@ -1,7 +1,7 @@
 <?php
 
 class Imagem {
-
+    private $arquivo;
     private $id;
     private $imagem;
 
@@ -10,6 +10,17 @@ class Imagem {
      * GETTERS AND SETTERS
      * ******************************
      */
+    //arquivo
+    public function getArquivo()
+    {
+        return $this->arquivo;
+    }
+
+    public function setArquivo($arquivo)
+    {
+        $this->arquivo = $arquivo;
+    }
+
     //id
     public function getId()
     {
@@ -18,7 +29,7 @@ class Imagem {
 
     public function setId($id)
     {
-       return $this->id = $id;
+        return $this->id = $id;
     }
 
     //imagem
