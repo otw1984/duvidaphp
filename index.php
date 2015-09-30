@@ -7,9 +7,10 @@
 
 <body>
 
-<form method="post" action="imagemAction.php" enctype="multipart/form-data">
-    <p>Entre com uma imagem:</p>
-    <input type="file" name="arquivo[]" multiple /> <br />
+<form method="post" action="actionCliente.php" >
+    <h4>Entre com os dados do cliente</h4>
+    <input type="text" name="nome" placeholder="Digite o nome" /> <br /><br />
+    <input type="text" name="idade" placeholder="Digite sua idade" /> <br /><br />
     <input type="submit" value="CASDASTRAR" />
 </form>
 
